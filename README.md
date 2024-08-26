@@ -4,6 +4,11 @@
 ## Lista de programas:
 Os programas dentro das listas abaixo foram realizados como maneira de estudo para a diciplina de Algoritmos e Programação I.
 
-[Lista 1](https://github.com/niicfsz/Codigos_de_AP2/tree/main/Lista%201)
+🕷️[Lista 1](https://github.com/niicfsz/Codigos_de_AP2/tree/main/Lista%201)
 
-[Atividades de slide]
+🕷️[Atividades de slides](https://github.com/niicfsz/Codigos_de_AP2/tree/main/Atividades%20de%20slides)
+
+## Agradecimentos
+Muito obrigado por ter lido até aqui, sinta-se livre para voltar quando quiser!
+![62a9ab0b586558a1849e0d5d05cce2e1](https://github.com/user-attachments/assets/7d6969ce-7119-44d0-a88a-0c9ccdcc290b)
+
