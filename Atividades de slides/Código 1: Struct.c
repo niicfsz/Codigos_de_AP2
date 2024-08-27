@@ -1,79 +1,45 @@
 #include <stdio.h>
-#include <string.h>
 
-struct hora{
-    int hr, min, seg;
-};
-
-struct data{
-    int dia, mes, ano;
+struct ficha{
+    int matricula;
+    char nome[100];
+    float nota1, nota2;
 };
 
 int main(){
-    int op;
-    struct hora a;
-    struct data b;
-    char compromisso[100] = "";
-    int dataDefinida = 0, horarioDefinido = 0, compromissoDefinido = 0;
 
-    do{
-        printf("\n\n==========Menu==========\n");
-        printf("1. Definir data\n");
-        printf("2. Definir horário\n");
-        printf("3. Definir compromisso\n");
-        printf("4. Exibir informações definidas\n");
-        printf("0. Sair\n\n");
-        printf("Escolha uma das opções a seguir e digite seu respectivo número: ");
-        scanf("%d", &op);
+    int i;
+    struct ficha alunos[3];
+    float media;
+
+    printf("======FICHA ESTUDANTIL======\n");
+
+    for(i=0; i<3; i++){
+        printf("\nDigite a matricula do aluno %d: ", i+1);
+        scanf("%d", &alunos[i].matricula);
+
         getchar();
 
-        switch(op){
-            case 1:
-                printf("\n\nAno: ");
-                scanf("%d", &b.ano);
-                printf("\nMês: ");
-                scanf("%d", &b.mes);
-                printf("\nDia: ");
-                scanf("%d", &b.dia);
-                dataDefinida = 1;
-                break;
+        printf("\nDigite o nome completo do aluno %d: ", i+1);
+        fgets(alunos[i].nome, sizeof(alunos[i].nome), stdin);
+        alunos[i].nome[strcspn(alunos[i].nome, "\n")] = '\0';
 
-            case 2:
-                printf("\n\nHora: ");
-                scanf("%d", &a.hr);
-                printf("\nMinutos: ");
-                scanf("%d", &a.min);
-                printf("\nSegundos: ");
-                scanf("%d", &a.seg);
-                horarioDefinido = 1;
-                break;
+        printf("\nDigite a nota 1 do aluno %d: ", i+1);
+        scanf("%f", &alunos[i].nota1);
 
-            case 3:
-                printf("\n\nDigite o compromisso do dia: ");
-                fgets(compromisso, sizeof(compromisso), stdin);
-                compromisso[strcspn(compromisso, "\n")] = '\0';
-                compromissoDefinido = 1;
-                break;
+        printf("\nDigite a nota 2 do aluno %d: ", i+1);
+        scanf("%f", &alunos[i].nota2);
 
-            case 4:
-                if (dataDefinida && horarioDefinido && compromissoDefinido) {
-                    printf("\nInformações Definidas:\n");
-                    printf("\n\nData: %02d/%02d/%d\n", b.dia, b.mes, b.ano);
-                    printf("\nHorário: %02d:%02d:%02d\n", a.hr, a.min, a.seg);
-                    printf("\nCompromisso: %s\n", compromisso);
-                } else {
-                    printf("\nVocê precisa definir a data, o horário e o compromisso antes de exibir as informações.\n");
-                }
-                break;
+        getchar();
 
-            default:
-                if(op == 0){
-                    printf("\nSaindo...\n");
-                } else{
-                    printf("Opção inexistente, por favor digite novamente.\n");
-                }
-        }
-    } while(op != 0);
+        printf("\n============================");
+    }
 
-    return 0;
+     for (int i = 0; i < 3; i++) {
+        media = (alunos[i].nota1 + alunos[i].nota2) / 2.0;
+        printf("\n\nAluno: %s\n", alunos[i].nome);
+        printf("\nMatricula: %d\n", alunos[i].matricula);
+        printf("\nMedia: %.2f\n\n", media);
+    }
+
 }
