@@ -1,7 +1,7 @@
 # Identificador de paridade
 
 ## Biblioteca usada:
-'''C
+```C
 #ifndef LUCAS_H_INCLUDED
 #define LUCAS_H_INCLUDED
 
@@ -28,11 +28,11 @@ int neutro()
     return 0;
 }
 #endif // LUCAS_H_INCLUDED
-'''
+```
 
 
 ## Main: 
-'''C
+```C
 #include <stdio.h>
 #include "lucas.h"
 
@@ -40,4 +40,4 @@ int neutro()
 int main(){
     printf("%d", neutro());
 }
-'''
+```
