@@ -1,3 +1,6 @@
+# Fibonacci
+Código que imprime a sequência de fibonacci até o enésimo termo.
+
 ## Biblioteca
 ```C
 #ifndef FIBONACCI_H_INCLUDED
