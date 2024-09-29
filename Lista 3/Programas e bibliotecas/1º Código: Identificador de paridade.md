@@ -1,4 +1,5 @@
 # Identificador de paridade
+Biblioteca criada para identificar a paridade de um número natural.
 
 ## Biblioteca usada:
 ```C
