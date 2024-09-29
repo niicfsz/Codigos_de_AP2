@@ -1,4 +1,5 @@
-# Código focado em recursividade.
+# Recursividade
+Código realizado para treinar o novo conceito de ressonância/recursividade aprendido em sala.
 
 ```C
 #include <stdio.h>
