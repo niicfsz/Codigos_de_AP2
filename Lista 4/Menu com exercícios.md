@@ -1,5 +1,8 @@
-# Bibliotecas usadas:
-## Biblioteca 1
+# Menu com exercícios
+Código interativo com múltiplas bibliotecas para resolver exercícios de uma lista.
+
+## Bibliotecas usadas:
+### Biblioteca 1
 ```C
 #ifndef DOIS_H_INCLUDED
 #define DOIS_H_INCLUDED
@@ -22,7 +25,7 @@ int POSITIVO_NEGATIVO(){
 
 #endif // DOIS_H_INCLUDED
 ```
-## Biblioteca 2
+### Biblioteca 2
 ```C
 #ifndef TRES_H_INCLUDED
 #define TRES_H_INCLUDED
@@ -43,7 +46,7 @@ void CONVERSOR_SEGUNDOS(){
 
 #endif // TRES_H_INCLUDED
 ```
-## Biblioteca 3
+### Biblioteca 3
 ```C
 #ifndef QUATRO_H_INCLUDED
 #define QUATRO_H_INCLUDED
@@ -76,7 +79,7 @@ static inline int SOMA_INTERVALO(int num1, int num2) {
 #endif // QUATRO_H_INCLUDED
 
 ```
-## Biblioteca 4 
+### Biblioteca 4 
 ```C
 #ifndef CINCO_H_INCLUDED
 #define CINCO_H_INCLUDED
@@ -113,7 +116,7 @@ void VERIFICACAO_TRIANGULO(){
 
 #endif // CINCO_H_INCLUDED
 ```
-## Biblioteca 5
+### Biblioteca 5
 ```C
 #ifndef SEIS_H_INCLUDED
 #define SEIS_H_INCLUDED
@@ -151,7 +154,7 @@ static inline void COMBINACAONP() {
 #endif // SEIS_H_INCLUDED
 
 ```
-## Biblioteca 6
+### Biblioteca 6
 ```C
 #ifndef SETE_H_INCLUDED
 #define SETE_H_INCLUDED
@@ -208,7 +211,7 @@ void CALCULO_ESTACIONAMENTO() {
 #endif // SETE_H_INCLUDED
 ```
 
-# Main
+## Main
 ```C
 #include <stdio.h>
 #include "DOIS.h"
