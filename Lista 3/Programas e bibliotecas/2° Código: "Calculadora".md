@@ -1,3 +1,6 @@
+# Calculadora simples
+Biblioteca criada para calcular +,-,*,/ de 2 números.
+
 ## Biblioteca:
 ```C
 #ifndef CALC_H_INCLUDED
