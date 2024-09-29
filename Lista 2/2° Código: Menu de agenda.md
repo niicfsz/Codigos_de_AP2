@@ -1,3 +1,7 @@
+# Agenda
+Código focado em criar compromissos em uma agenda.
+
+```C
 #include <stdio.h>
 #include <string.h>
 
@@ -76,4 +80,5 @@ int main(){
     } while(op != 0);
 
     return 0;
+    ```
 }
