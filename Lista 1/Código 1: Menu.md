@@ -1,3 +1,7 @@
+# Menu
+Fiz esse código para relembrar funções já aprendidas em C de forma interativa, mas sem tratamento de erro.
+
+```C
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -166,6 +170,7 @@ int main(){
             break;
                  } else{
                      printf("Opçao inexistente, por favor digite novamente.");
+```
                  }
             }
     }while(op != 0);
