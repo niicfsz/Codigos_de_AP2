@@ -1,3 +1,7 @@
+# Ficha estudantil
+Programa desenvolvido para portar informações de um aluno usando struct.
+
+```C
 #include <stdio.h>
 
 struct ficha{
@@ -34,3 +38,4 @@ int main(){
         printf("\nCurso: %s", alunos[i].curso);
     }
 }
+```
