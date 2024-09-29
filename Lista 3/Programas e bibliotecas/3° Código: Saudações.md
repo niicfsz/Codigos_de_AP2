@@ -1,3 +1,6 @@
+# Programa de Saudação
+Código que cumprimenta uma pessoa com base no horário do dia.
+
 ## Biblioteca
 ```C
 #ifndef HORA_H_INCLUDED
