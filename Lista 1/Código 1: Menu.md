@@ -170,8 +170,8 @@ int main(){
             break;
                  } else{
                      printf("Opçao inexistente, por favor digite novamente.");
-```
                  }
             }
     }while(op != 0);
 }
+```
