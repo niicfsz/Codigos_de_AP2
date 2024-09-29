@@ -1,3 +1,6 @@
+# Boletim estudantil
+Código que analisa matrícula nome e notas de 5 alunos para imprimir em uma ficha.
+
 ## Biblioteca
 ```C
 #ifndef INCOMPLETO_H_INCLUDED
