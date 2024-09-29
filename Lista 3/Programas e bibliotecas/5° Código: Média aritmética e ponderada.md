@@ -1,3 +1,6 @@
+# Média bimestral
+Biblioteca gerada com o intuito de calcular a média aritmética e ponderada de um aluno.
+
 ## Biblioteca
 ```C
 #ifndef MEDIA_H_INCLUDED
