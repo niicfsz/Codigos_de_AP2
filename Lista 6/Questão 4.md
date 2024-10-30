@@ -40,7 +40,7 @@ int main(){
     printf("\nOrdem crescente:\n");
 
     for(i = 0; i < 3; i++){
-        printf("%d\n", n[i]);
+        printf("%f\n", n[i]);
     }
 }
 ```
