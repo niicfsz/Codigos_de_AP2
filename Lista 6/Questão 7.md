@@ -1,4 +1,4 @@
-# Questão 6
+# Questão 7
 ## Main
 ```C
 #include <stdio.h>
