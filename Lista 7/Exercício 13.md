@@ -27,5 +27,7 @@ int main(){
     printf("\nNome: %s", ptr->nome);
     printf("Idade: %d\n", ptr->idade);
     printf("Média: %.2f\n", ptr->nota);
+
+    return 0;
 }
 ```
