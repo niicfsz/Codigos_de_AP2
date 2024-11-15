@@ -40,10 +40,7 @@ int main()
     }
 
     fprintf(ap2, "Informações alunos: ");
-    fprintf(ap2, "\n\nNome: %s", nome);
-    fprintf(ap2, "\nMatricula: %d", matricula);
-    fprintf(ap2, "\n\nCurso: %s", curso);
-    fprintf(ap2, "\nNotas: %.1f e %.1f", nota1, nota2);
+    fprintf(ap2, "%s, %d, %s, %.1f, %.1f\n", nome, matricula, curso, nota1, nota2);
 
     fclose(ap2);
 }
