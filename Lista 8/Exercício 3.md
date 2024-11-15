@@ -8,7 +8,7 @@ int main()
 {
 
     char nome[100], curso[100];
-    int matricula, i;
+    int matricula;
     float nota1,nota2;
 
     FILE *ap2;
