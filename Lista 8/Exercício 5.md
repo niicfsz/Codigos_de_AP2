@@ -21,10 +21,10 @@ int main() {
         return 1;
     }
 
-    printf("Digite a matrícula do aluno cujas notas você deseja alterar: ");
+    printf("Digite a matricula do aluno cujas notas você deseja alterar: ");
     scanf("%d", &matriculaBusca);
 
-    getchar(); 
+    getchar();
 
     printf("Digite a nova Nota 1: ");
     scanf("%f", &novaNota1);
@@ -39,14 +39,14 @@ int main() {
 
             fseek(ap2, -(long)(strlen(nome) + 2 + sizeof(int) + 2 + strlen(curso) + 2 + 2 * sizeof(float) + 1), SEEK_CUR);
 
-            fprintf(ap2, "%s, %d, %s, %.2f, %.2f\n", nome, matriculaArquivo, curso, novaNota1, novaNota2);
+            fprintf(ap2, "%s, %d, %s, %.1f, %.1f\n", nome, matriculaArquivo, curso, novaNota1, novaNota2);
 
             break;
         }
     }
 
     if (!alunoEncontrado) {
-        printf("Aluno com matrícula %d não encontrado.\n", matriculaBusca);
+        printf("Aluno com matricula %d nao encontrado.\n", matriculaBusca);
     } else {
         printf("Notas alteradas com sucesso!\n");
     }
