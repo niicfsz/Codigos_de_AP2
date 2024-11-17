@@ -37,7 +37,6 @@ int main()
         return 1;
     }
 
-    fprintf(ap2, "Informações dos alunos: \n");
     fprintf(ap2, "%s, %d, %s, %.1f, %.1f\n", nome, matricula, curso, nota1, nota2);
 
     fclose(ap2);
