@@ -14,7 +14,7 @@ int matriculaExiste(FILE *ap2, int matricula) {
     int matriculaArquivo;
     float nota1, nota2;
 
-    fseek(ap2, 0, SEEK_SET); 
+    fseek(ap2, 0, SEEK_SET);
     while (fscanf(ap2, "%99[^,], %d, %99[^,], %f, %f\n", nome, &matriculaArquivo, curso, &nota1, &nota2) != EOF) {
         if (matricula == matriculaArquivo) {
             return 1;
@@ -33,7 +33,7 @@ int main() {
     printf("Nome: ");
     fgets(nome, sizeof(nome), stdin);
     nome[strcspn(nome, "\n")] = 0;
-    printf("Matrícula: ");
+    printf("Matricula: ");
     scanf("%d", &matricula);
 
     getchar();
@@ -57,7 +57,7 @@ int main() {
     }
 
     if (matriculaExiste(ap2, matricula)) {
-        printf("Erro: Matrícula %d já existe. Não é possível incluir o aluno.\n", matricula);
+        printf("Erro: Matricula %d ja existe. Nao eh possível incluir o aluno.\n", matricula);
         fclose(ap2);
         return 1;
     }
