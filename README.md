@@ -26,5 +26,4 @@ Os programas dentro das listas abaixo foram realizados como maneira de estudo pa
 Muito obrigado por ter lido até aqui, sinta-se livre para voltar quando quiser!
 ![62a9ab0b586558a1849e0d5d05cce2e1](https://github.com/user-attachments/assets/7d6969ce-7119-44d0-a88a-0c9ccdcc290b)
 
-## Lucas lindao
 
