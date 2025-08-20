@@ -1,4 +1,5 @@
-
+# Ficha de um cliente
+O programa a seguir cadastra a ficha de um cliente e logo em seguida imprime ela na tela.
 ```C
 #include <stdio.h>
 #include <math.h>
