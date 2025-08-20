@@ -62,10 +62,11 @@ int main() {
     printf("\nEndereço: %s", a.endereco);
     printf("\nSexo: %c", a.sexo);
     printf("\nData de nascimento: %02d/%02d/%04d", a.dia, a.mes, a.ano);
-```
+
     printf("\nIdade: %02d", a.idade);
     printf("\nCPF: %lld", a.cpf);
     printf("\nIMC: %.2f\n", a.imc);
 
     return 0;
 }
+```
