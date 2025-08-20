@@ -1,3 +1,5 @@
+# Cadastro de companhia
+No código a seguir, com o intuito de treinar struct, fiz um código que cadastra as informações de uma companhia e as imprime na tela.
 ```C
 #include <stdio.h>
 
