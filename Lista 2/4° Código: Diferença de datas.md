@@ -1,3 +1,4 @@
+```C
 #include <stdio.h>
 
 struct data {
@@ -48,6 +49,8 @@ int main() {
     }
 
     printf("\nA diferença entre as datas eh de %d anos, %d meses, %d dias.\n", difano, difmes, difdia);
-
+    return 0;
+}
+```
     return 0;
 }
