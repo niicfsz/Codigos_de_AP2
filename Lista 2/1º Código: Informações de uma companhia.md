@@ -1,3 +1,4 @@
+```C
 #include <stdio.h>
 
 struct companhia{
@@ -43,3 +44,4 @@ int main(){
 
     return 0;
 }
+```
