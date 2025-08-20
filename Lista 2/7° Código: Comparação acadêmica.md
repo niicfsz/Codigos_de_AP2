@@ -1,3 +1,6 @@
+# Comparação acadêmica
+O sistema a seguir coleta informações sobre 3 alunos, sendo elas nome, matrícula e um conjunto de 3 notas, para enfim calcular a média final e comparar com o restante do estudantes.
+
 ```C
 #include <stdio.h>
 #include <string.h>
