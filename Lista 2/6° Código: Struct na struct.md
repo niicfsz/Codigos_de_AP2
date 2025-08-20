@@ -1,3 +1,6 @@
+# Registro de um cidadão
+Criei este pequeno programa de cadastro de pessoa para treinar o conceito de struct dentro de outra struct.
+
 ```C
 #include <stdio.h>
 #include <string.h>
