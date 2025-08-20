@@ -1,3 +1,6 @@
+# Diferença entre duas datas
+O código a seguir pede ao usuário duas datas diferentes e calcula o quanto se passou entre cada uma.
+
 ```C
 #include <stdio.h>
 
