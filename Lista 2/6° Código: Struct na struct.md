@@ -1,5 +1,5 @@
 # Registro de um cidadão
-Criei este pequeno programa de cadastro de pessoa para treinar o conceito de struct dentro de outra struct.
+Impressão de informações de duas structs da tela
 
 ```C
 #include <stdio.h>
@@ -26,7 +26,7 @@ int main(){
     strcpy(a.dados.cep, "758000-0");
     a.saldo = 1250.00;
 
-    strcpy(a.nome, "Nilma Fernandes");
+    strcpy(a.nome, "Eles tao de olho em nois");
     strcpy(a.dados.rua, "Rua BH 2");
     a.dados.n = 567;
     strcpy(a.dados.cep, "321654-32");
@@ -40,4 +40,9 @@ int main(){
 
     return 0;
 }
+```
+
+O código acima abrange um conceito que é usado para a criação de outra camada de informações dentro da struct, no exemplo, possuímos a varíavel cliente que carrega 3 informações, onde uma delas contém mais 3 dados. A criação da struct dentro da struct basicamente é uma criação de uma struct na main, só que dentro de outra struct, a nomenclatura da variável fica assim:
+```C
+NomeDaVariavel.InformaçaoDaStruct.InformacaoDaStructNaStruct
 ```
