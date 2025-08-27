@@ -71,3 +71,4 @@ int main() {
     return 0;
 }
 ```
+Mesma dinâmica dos outros exercícios, porém com uma quantidade maior de informações.
