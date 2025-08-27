@@ -1,5 +1,5 @@
 # Registro de um cidadão
-Impressão de informações de duas structs da tela
+Impressão de informações de duas structs da tela.
 
 ```C
 #include <stdio.h>
