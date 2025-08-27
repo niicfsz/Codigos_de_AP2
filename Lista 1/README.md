@@ -1,4 +1,9 @@
-# Laboratório 1
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=790b11" />
+ <img width="459" height="124" alt="fontbolt (1)" src="https://github.com/user-attachments/assets/dd4b2547-33e1-4967-be31-62a7ceb4217d" />
+<h2></h2>
+</div>
+
 O código desenvolvido acima foi feito durante as primeiras aulas de AP2, com foco em revisar sobre conteúdos passados, como operações básicas, laços de repetições, tipos de variáveis, termos iniciais, etc.
 
 [AP2_24_Lab01_Reviso_Linguagem_C.pdf](https://github.com/user-attachments/files/22014050/AP2_24_Lab01_Reviso_Linguagem_C.pdf)
