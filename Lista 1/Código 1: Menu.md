@@ -1,5 +1,5 @@
 # Menu
-Código baseado no aula de laboratório 1.
+Código baseado na aula de laboratório 1.
 
 ```C
 #include <stdio.h>
