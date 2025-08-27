@@ -1,5 +1,5 @@
 # Menu
-Fiz esse código para relembrar funções já aprendidas em C de forma interativa, mas sem tratamento de erro.
+Código baseado no aula de laboratório 1.
 
 ```C
 #include <stdio.h>
