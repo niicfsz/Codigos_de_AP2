@@ -1,6 +1,7 @@
 # Ficha estudantil
 Programa desenvolvido para portar informações de um aluno usando struct.
 
+O código a seguir trabalha ainda com os mesmos conceitos de struct, com um adicional de vetor.
 ```C
 #include <stdio.h>
 
@@ -38,4 +39,10 @@ int main(){
         printf("\nCurso: %s", alunos[i].curso);
     }
 }
+```
+
+
+O diferencial desse programa é o uso do vetor mesclado com o uso da struct, onde a nomenclatura da variável fica assim:
+```C
+NomeDaVariavel[PosicaoNoVetor].InformaçãoDaStruct
 ```
