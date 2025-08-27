@@ -19,7 +19,6 @@ int main(){
 
     printf("==============================");
 
-    //Quando trabalhamos com informações de struct, para escanear, printar ou qualquer outra operação relacionado a estrutura nos referimos a variável como (nome da variável).(informacão da struct)
     printf("\nDigite o nome da companhia: ");
     fgets(empresa.nome, sizeof(empresa.nome), stdin);
     empresa.nome[strcspn(empresa.nome, "\n")] = '\0';
@@ -52,3 +51,9 @@ int main(){
     return 0;
 }
 ```
+
+Lembrando que quando queremos fazer qualquer tipo de operação com as informações da struct, printar, escanear, etc. Utilizamos a nomenclatura dessa forma.
+```C
+NomeDaVariavelStruct.InformacaoDaStruct
+```
+Dessa forma, estamos nos referindo por exemplo, à uma informação específica da empresa sem ter que criar uma variável exclusiva para ela.
