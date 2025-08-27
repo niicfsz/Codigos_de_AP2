@@ -46,7 +46,7 @@ bool ehPrimo(int num) {
 O conceito de número primo faz com que essa função não seja tão complexa de ser desenvolvida, entretanto, o laço de repetição dele pode trazer algumas dúvidas. É dito que um número primo só é divisível por ele e por 1, então é necessário fazer todos os testes de divisão de 1 até o número desejado, porém, já eliminamos os números negativos, o 0, 1 e os pares, então começaremos a partir do 3. Dando sequência, para descobrirmos até onde o laço de repetição deve ir, assumimos que o maior algarismo que pode dividir o nosso número desejado e sobrar 0, seria sua própria raiz quadrada, explicando então o "for (int i = 3; i <= sqrt(num); i += 2){"
 
 # Main
-Na main, coloquei os cálculos que exegiam menos linhas e o laço de repetição que permite que o menu seja printado quantas vezes forem necessárias, graças ao do-while
+Na main, coloquei os cálculos que exegiam menos linhas e o laço de repetição que permite que o menu seja printado quantas vezes forem necessárias, graças ao do-while, que também permite que o usuário digite um número na entrada e apartir desse número seja impresso na tela uma das opções do menu por conta do switch-case
 ```C
  do{
             printf("\n\n==========Menu==========\n");
