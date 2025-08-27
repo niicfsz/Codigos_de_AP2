@@ -1,6 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=790b11" />
  <img width="459" height="124" alt="fontbolt (1)" src="https://github.com/user-attachments/assets/dd4b2547-33e1-4967-be31-62a7ceb4217d" />
 
+<h2></h2>
 
 Essa pasta é referente ao conteúdo ensinado de Struct, segue a lista/laboratório desse conteúdo: 
 
