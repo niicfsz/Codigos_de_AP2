@@ -28,7 +28,7 @@ Os programas dentro das listas abaixo foram realizados como maneira de estudo du
 
 <div align="center">
 
-Muito obrigado por ter lido até aqui, sinta-se livre para voltar quando quiser!
+Bons estudos! Volte sempre que precisar.
 
 
 
