@@ -78,3 +78,4 @@ int main() {
     return 0;
 }
 ```
+O código contém uma linha de raciocínio que pode causar algumas dúvidas na parte de comparação, então explicarei o que planejei para ele. Basicamente foi pedido que 5 alunos colocassem suas notas no programa e então fosse impresso a maior média, a maior nota e a menor nota dentre eles, dessa forma, é feito uma comparação dentro de um laço de repetição com 3 condições a serem seguidas, e caso uma delas fosse cumprida, então a nota atual seria sobreescrita pela nova maior ou menor. O mesmo se repete na média logo embaixo.
