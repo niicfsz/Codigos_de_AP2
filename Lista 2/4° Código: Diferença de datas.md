@@ -54,6 +54,9 @@ int main() {
     printf("\nA diferença entre as datas eh de %d anos, %d meses, %d dias.\n", difano, difmes, difdia);
     return 0;
 }
-```
+
     return 0;
 }
+```
+
+O programa calcula a diferença de datas de maneira que o valor a sempre será uma data mais recente que sofrerá subtração do valor b, caso contrário é criado uma variável temp(ou aux) que será usada exclusivamente para fazer a troca de datas, também acrescentando o limite de valores nos dias, máximo 30 e nos meses, máximo 12.
