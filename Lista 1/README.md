@@ -1,6 +1,6 @@
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=790b11" />
- <img width="459" height="124" alt="fontbolt (1)" src="https://github.com/user-attachments/assets/dd4b2547-33e1-4967-be31-62a7ceb4217d" />
+ <img width="742" height="124" alt="fontbolt (2)" src="https://github.com/user-attachments/assets/f8d92cb1-ada8-41a8-91e7-43f3cd62f219" />
 <h2></h2>
 </div>
 
