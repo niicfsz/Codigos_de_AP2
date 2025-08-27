@@ -49,4 +49,13 @@ Percebe-se que criamos a variável alunos que será do tipo ficha e vetor ao mes
 No final do código há apenas a impressão das informações dos alunos dentro de outro laço de repetição definido.
 ```C
 
+     for (int i = 0; i < 3; i++) {
+        media = (alunos[i].nota1 + alunos[i].nota2) / 2.0;
+        printf("\n\nAluno: %s\n", alunos[i].nome);
+        printf("\nMatricula: %d\n", alunos[i].matricula);
+        printf("\nMedia: %.2f\n\n", media);
+    }
+
+    return 0
+}
 ```
