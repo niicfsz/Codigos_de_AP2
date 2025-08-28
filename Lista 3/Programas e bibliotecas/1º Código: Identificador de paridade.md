@@ -42,3 +42,4 @@ int main(){
     printf("%d", neutro());
 }
 ```
+Na main, precisamos incluir a biblioteca criada em outro arquivo para enfim podermos printar a função escrita nela.
