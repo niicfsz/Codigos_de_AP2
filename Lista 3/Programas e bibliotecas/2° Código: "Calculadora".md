@@ -51,3 +51,13 @@ int main() {
     return 0;
 }
 ```
+Já neste código, criamos a biblioteca "calc.h" que contém algumas funções de operações matemáticas, que  precisam de parâmetros para seu funcionamento.
+
+
+```C
+//Exemplo soma
+int somar(int a, int b){
+    return a+b;
+}
+//A função recebe dois inteiros e enfim retorna o valor da soma
+```
