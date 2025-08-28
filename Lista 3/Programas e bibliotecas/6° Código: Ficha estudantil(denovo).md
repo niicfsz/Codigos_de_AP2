@@ -8,7 +8,7 @@ Código que analisa matrícula, nome e notas de 5 alunos para imprimir em uma fi
 
 #include <stdio.h>
 
-//Variação da declaração da struct, ao escrever "typedef struct" com o nome da struct no final da chave, não é necessário difitar struct Aluno Turma[5], pois já foi definido como struct acima.
+//Variação da declaração da struct, ao escrever "typedef struct" com o nome da struct no final da chave, não é necessário digitar struct Aluno Turma[5], pois já foi definido como struct acima.
 typedef struct {
     int matricula;
     float notas[3];
