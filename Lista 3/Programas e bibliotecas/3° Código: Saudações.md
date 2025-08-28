@@ -44,3 +44,4 @@ int main(){
     return 0;
 }
 ```
+Mesma coisa dos exercícios anteriores, é criado uma biblioteca que contém funções com parâmetros que são determinados na main.
