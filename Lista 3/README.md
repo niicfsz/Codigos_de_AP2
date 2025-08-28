@@ -29,4 +29,18 @@ return 1;
 ```
 Percebe-se que a função não utiliza nenhum parâmetro, mas retorna um valor do tipo inteiro.
 
+# Códigos
+[Código 1](https://github.com/niicfsz/Codigos_de_AP2/blob/main/Lista%203/Programas%20e%20bibliotecas/1%C2%BA%20C%C3%B3digo%3A%20Identificador%20de%20paridade.md)
+
+[Código 2](https://github.com/niicfsz/Codigos_de_AP2/blob/main/Lista%203/Programas%20e%20bibliotecas/2%C2%B0%20C%C3%B3digo%3A%20%22Calculadora%22.md)
+
+[Código 3](https://github.com/niicfsz/Codigos_de_AP2/blob/main/Lista%203/Programas%20e%20bibliotecas/3%C2%B0%20C%C3%B3digo%3A%20Sauda%C3%A7%C3%B5es.md)
+
+[Código 4](https://github.com/niicfsz/Codigos_de_AP2/blob/main/Lista%203/Programas%20e%20bibliotecas/4%C2%B0%20C%C3%B3digo%3A%20%20Fibonacci.md)
+
+[Código 5](https://github.com/niicfsz/Codigos_de_AP2/blob/main/Lista%203/Programas%20e%20bibliotecas/5%C2%B0%20C%C3%B3digo%3A%20M%C3%A9dia%20aritm%C3%A9tica%20e%20ponderada.md)
+
+[Código 6](https://github.com/niicfsz/Codigos_de_AP2/blob/main/Lista%203/Programas%20e%20bibliotecas/6%C2%B0%20C%C3%B3digo%3A%20Ficha%20estudantil(denovo).md)
+
+
 
