@@ -6,8 +6,6 @@ Biblioteca gerada com o intuito de calcular a média aritmética e ponderada de 
 #ifndef MEDIA_H_INCLUDED
 #define MEDIA_H_INCLUDED
 
-float n1, n2, n3, p, a, p1, p2, p3, sp;
-
 int media(){
 
     a = (n1+n2+n3)/3;
@@ -21,11 +19,14 @@ int media(){
 }
 #endif // MEDIA_H_INCLUDED
 ```
+Novamente, percebe-se que há variáveis globais no arquivo main, portanto não há necessidade de usá-las como parâmetro na função de média.
 
 ## Main
 ```C
 #include <stdio.h>
 #include "media.h"
+
+float n1, n2, n3, p, a, p1, p2, p3, sp;
 
 int main(){
 
