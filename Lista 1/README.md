@@ -32,7 +32,7 @@ int ehPalindromo(char str[]) {
     return 1;
 }
 ```
-O while nesse caso faz com que o bloco de código se repita até que i seja maior ou igual a j, ou seja, i e j caminharão da esquerda pra direita e da direita pra esquerda reespectivamente comparando letra por letra para verificar se essa palavra é equivalente a sua inversa.
+O while nesse caso faz com que o bloco de código se repita somente enquanto i é menor que j, ou seja, i e j caminharão da esquerda pra direita e da direita pra esquerda reespectivamente comparando letra por letra para verificar se essa palavra é equivalente a sua inversa.
 
 O próximo segmento verifica se um número é primo;
 ```C
@@ -51,7 +51,7 @@ bool ehPrimo(int num) {
 O conceito de número primo faz com que essa função não seja tão complexa de ser desenvolvida, entretanto, o laço de repetição dele pode trazer algumas dúvidas. É dito que um número primo só é divisível por ele e por 1, então é necessário fazer todos os testes de divisão de 1 até o número desejado, porém, já eliminamos os números negativos, o 0, 1 e os pares, então começaremos a partir do 3. Dando sequência, para descobrirmos até onde o laço de repetição deve ir, assumimos que o maior algarismo que pode dividir o nosso número desejado e sobrar 0, seria sua própria raiz quadrada, explicando então o "for (int i = 3; i <= sqrt(num); i += 2){"
 
 # Main
-Na main, coloquei os cálculos que exegiam menos linhas e o laço de repetição que permite que o menu seja printado quantas vezes forem necessárias, graças ao do-while, que também permite que o usuário digite um número na entrada e apartir desse número seja impresso na tela uma das opções do menu por conta do switch-case.
+Na main, coloquei os cálculos que exegiam menos linhas e o laço de repetição que permite que o menu seja printado quantas vezes forem necessárias, graças ao do-while, que com o uso do switch-case também permite que o usuário digite um número na entrada e apartir desse número seja impresso na tela uma das opções do menu.
 ```C
  do{
             printf("\n\n==========Menu==========\n");
@@ -181,6 +181,6 @@ Na main, coloquei os cálculos que exegiam menos linhas e o laço de repetição
             }
     }while(op != 0);
 ```
-Qualquer outra dúvida podem me contactar por uma das fontes do README do meu perfil.
+Qualquer dúvida ou sugestão podem me contactar por uma das fontes do README do meu perfil.
 
 
