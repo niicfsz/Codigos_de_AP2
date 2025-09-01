@@ -59,4 +59,4 @@ int main() {
 }
 ```
 
-O programa calcula a diferença de datas de maneira que o valor a sempre será uma data mais recente que sofrerá subtração do valor b, caso contrário é criado uma variável temp(ou aux) que será usada exclusivamente para fazer a troca de datas, também acrescentando o limite de valores nos dias, máximo 30 e nos meses, máximo 12.
+O programa calcula a diferença de datas de maneira que o valor a sempre será uma data mais recente que sofrerá subtração do valor b, caso contrário é criado uma variável temp(ou aux) que será usada exclusivamente para fazer a troca de datas, também acrescentando o limite de valores, sendo no máximo 30(eu ignorei fevereiro e os outros meses com 31kkk) para os dias e nos meses no máximo 12.
