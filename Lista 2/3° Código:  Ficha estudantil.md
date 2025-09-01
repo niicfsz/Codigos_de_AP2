@@ -46,3 +46,4 @@ O diferencial desse programa é o uso do vetor mesclado com o uso da struct, ond
 ```C
 NomeDaVariavel[PosicaoNoVetor].InformaçãoDaStruct
 ```
+É necessário uma nomenclatura diferente para o vetor pois numa situação de for, se colocarmos apenas o nome.informação, não será possível executarmos nosso código com êxito, pois a posição do vetor não será evidenciada.
