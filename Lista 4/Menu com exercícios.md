@@ -1,5 +1,5 @@
 # Menu com exercícios
-Código interativo com múltiplas bibliotecas para resolver exercícios de uma lista.
+Focado na utilização da função void.
 
 ## Bibliotecas usadas:
 ### Biblioteca 1
