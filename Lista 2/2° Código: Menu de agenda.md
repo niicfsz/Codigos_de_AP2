@@ -80,5 +80,6 @@ int main(){
     } while(op != 0);
 
     return 0;
-    ```
 }
+```
+Esse programa de agendamento não se diferencia do anterior referente a informações de empresa, o especial dele ta na determinação da data definida, pois caso o usuário não agende nenhum evento, a dataDefinida, horarioDefinido e nem compromissoDefinido sairam do seu valor inicial 0, portanto não será possível prosseguir para a 4ª opção do menu.
