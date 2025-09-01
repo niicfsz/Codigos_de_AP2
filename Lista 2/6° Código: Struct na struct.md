@@ -46,3 +46,11 @@ O código acima abrange um conceito que é usado para a criação de outra camad
 ```C
 NomeDaVariavel.InformaçaoDaStruct.InformacaoDaStructNaStruct
 ```
+Com o uso do vetor, a variável pode ficar ainda maior, se usarmos uma quantidade maior de pessoas seria assim:
+```C
+NomeDaVariavel[PosiçaoDoVetor].InformaçaoDaStruct.InformacaoDaStructNaStruct
+```
+E se adicionarmos também uma maior quantidade de dados:
+```C
+NomeDaVariavel[PosicaoDoVetor].InformaçaoDaStruct[PosiçaoDoVetor].InformacaoDaStructNaStruct
+```
