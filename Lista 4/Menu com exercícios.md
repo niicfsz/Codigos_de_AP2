@@ -1,8 +1,12 @@
 # Menu com exercícios
-Focado na utilização da função void.
+O objetivo do laboratório referente a esse conteúdo foi fixar o conceito de biblioteca, funções e passagem por parâmetro. Tive que dividir cada exercício em uma biblioteca e uma função.
+
+[Lab04_AP2_2024.pdf](https://github.com/user-attachments/files/22102171/Lab04_AP2_2024.pdf)
 
 ## Bibliotecas usadas:
+
 ### Biblioteca 1
+A biblioteca 1 tinha como objetivo desenvolver uma função que indentificava se um número era positivo ou negativo, sem muita complexidade mesmo, apenas verificando se um número é menor ou maior que 0.
 ```C
 #ifndef DOIS_H_INCLUDED
 #define DOIS_H_INCLUDED
@@ -26,6 +30,7 @@ int POSITIVO_NEGATIVO(){
 #endif // DOIS_H_INCLUDED
 ```
 ### Biblioteca 2
+A biblioteca 2 apresenta a capacidade de fazer uma conversão de segundos para sua reespectiva quantidade dividida em horas, minutos e segundos. O cálculo é trabalhado de maneira que, as horas são os segundos/3600, os minutos são o (resto da divisão das horas)/60, e então os segundos que pega o restante das outras operações.
 ```C
 #ifndef TRES_H_INCLUDED
 #define TRES_H_INCLUDED
@@ -47,19 +52,14 @@ void CONVERSOR_SEGUNDOS(){
 #endif // TRES_H_INCLUDED
 ```
 ### Biblioteca 3
+A biblioteca 3 soma todos os números de um intervalo definido pelo o usuário, e caso o primeiro número digitado seja maior do que o segundo, haverá uma troca para que o laço de repetição funcione adequadamente.
 ```C
 #ifndef QUATRO_H_INCLUDED
 #define QUATRO_H_INCLUDED
 
 
-static inline int SOMA_INTERVALO(int num1, int num2) {
+int SOMA_INTERVALO(int num1, int num2) {
     int soma = 0;
-
-    printf("\nDigite um numero inteiro: ");
-    scanf("%d", &num1);
-
-    printf("Digite outro numero inteiro: ");
-    scanf("%d", &num2);
 
     if (num1 > num2) {
         int temp = num1;
@@ -80,7 +80,9 @@ static inline int SOMA_INTERVALO(int num1, int num2) {
 
 ```
 ### Biblioteca 4 
+A biblioteca 4 verifica a existência de um triângulo e então printa se ele existe e o seu tipo. Para verificar a existência de um triângulo foi necessário colocar uma trecho condicional que só será ativado caso um dos lados seja maior que a subtração dos outros dois e menor que a soma dos outros dois (a-b < c < a+b), só que isso deve ser testado para todos os lados. E o tipo do triângulo é dividido em 3 categorias, equilátero: três lados iguais, isóceles: 2 lados iguais e escaleno: nenhum lado igual.
 ```C
+
 #ifndef CINCO_H_INCLUDED
 #define CINCO_H_INCLUDED
 
@@ -117,28 +119,29 @@ void VERIFICACAO_TRIANGULO(){
 #endif // CINCO_H_INCLUDED
 ```
 ### Biblioteca 5
+Já a biblioteca 5 trabalha com um conceito de análise combinatória, calculando a combinação através do n que é a quantidade total dos elementos e do p que é uma parte dos elementos. Foi necessário também adicionar uma função de fatorial, pois não cheguei a conhecer nenhuma função da stdio.h ou math.h que calculasse fatorial. A função fatorial foi bem tranquila, apenas criei uma função que recebia um número como parâmetro e criava resultado começando em 1, para que daí em diante fosse possível multiplicar 1 pelo seus sucessores até chegar em no número positivo do parâmetro, tudo através do for. Já na função "combinacao" utilizei o n e o p de parâmetros para poder aplicar a fórmula da combinação utilizando a função passada: fatorial(n) / (fatorial(p) * fatorial(n - p)). Nota-se que a função seguinte não possui nenhum parâmetro pois é nela que ta sendo criada as variáveis que iremos trabalhar, como se a COMBINACAONP fosse uma "main" por assim dizer.
 ```C
 #ifndef SEIS_H_INCLUDED
 #define SEIS_H_INCLUDED
 
 #include <stdio.h>
 
-static inline unsigned long long fatorial(int num) {
-    unsigned long long resultado = 1;
+int fatorial(int num) {
+    int resultado = 1;
     for (int i = 1; i <= num; i++) {
         resultado *= i;
     }
     return resultado;
 }
 
-static inline unsigned long long combinacao(int n, int p) {
+int combinacao(int n, int p) {
     if (p > n || p < 0) {
         return 0;
     }
     return fatorial(n) / (fatorial(p) * fatorial(n - p));
 }
 
-static inline void COMBINACAONP() {
+void COMBINACAONP() {
     int n, p;
 
     printf("\nDigite o valor de n: ");
@@ -147,21 +150,20 @@ static inline void COMBINACAONP() {
     printf("\nDigite o valor de p: ");
     scanf("%d", &p);
 
-    unsigned long long resultado = combinacao(n, p);
-    printf("C(%d, %d) = %llu\n", n, p, resultado);
+    int resultado = combinacao(n, p);
+    printf("C(%d, %d) = %d\n", n, p, resultado);
 }
 
 #endif // SEIS_H_INCLUDED
 
 ```
 ### Biblioteca 6
+Já a última biblioteca calcula o valor a ser pago por um motorista com base no tempo gasto do seu carro em um estacionamento. A primeira função possui o parâmetro horas para que possa ser possível calcular a taxa com base na condição imposta a ele. Já a segunda função irá definir as horas e então chamar a CALCULA_TAXAS para calcular o valor acumulado e enfim gerenciar corretamente a estadia de cada carro.
 ```C
 #ifndef SETE_H_INCLUDED
 #define SETE_H_INCLUDED
 
 #include <stdio.h>
-
-float CALCULA_TAXAS(int horas);
 
 float CALCULA_TAXAS(int horas) {
     float taxa;
@@ -212,6 +214,7 @@ void CALCULO_ESTACIONAMENTO() {
 ```
 
 ## Main
+Após ter limitado todas as bibliotecas a pelo menos uma função, tudo que temos que fazer é incluí-las em nosso arquivo principal e apenas chamar as funções de cada exercício, facilitando a compreensão e reduzindo a quantidade de linhas da main.
 ```C
 #include <stdio.h>
 #include "DOIS.h"
