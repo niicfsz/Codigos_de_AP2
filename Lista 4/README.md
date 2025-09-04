@@ -12,10 +12,6 @@ Esse segmento irá trabalhar novamente com a criação de funções só que dess
   Graças a esse questionamento foi desenvolvida a *passagem por parâmetro*, onde criamos uma função com um tipo de variável no parâmetro para que possamos apenas chamar essa função na main.  
 ```C
 void funcaoaleatoria(int a, int b){
-      printf("Digite um número: ");
-      scanf("%d", &a);
-      printf("Digite outro número: ");
-      scanf("%d", &b);
       int soma = a + b;
       printf("A soma dos dois números é igual a: %d", soma);
 }
@@ -23,10 +19,13 @@ void funcaoaleatoria(int a, int b){
 O objetivo dessa função é apenas somar dois números mas, mesmo pela sua complexidade baixa, definir operações como essa fora da função principal permite que você possa chamá-la indefinidamente na main, em vez de ter que ficar digitando esse mesmo bloco de código de novo e de novo.
 
 
-Assim como possuímos diferentes tipos de variáveis, as funções seguirão a mesma regra. Acima foi usado o tipo *void* pois escrevi um bloco de código que não retorna nenhum valor, pedindo ao usuário dois valores e logo em seguida printa sua soma, reduzindo o trabalho em quase 70%. Veja como ficaria a main:
+Assim como possuímos diferentes tipos de variáveis, as funções seguirão a mesma regra. Acima foi usado o tipo *void* pois escrevi um bloco de código que não retorna nenhum valor, pedindo ao usuário dois valores e logo em seguida printa sua soma, reduzindo o trabalho. Veja como ficaria a main:
 ```C
 int main(){
       int a, b;
+      
+      scanf("%d", &a);
+      scanf("%d", &b);
 
       funcaoaleatoria(a, b);
 
