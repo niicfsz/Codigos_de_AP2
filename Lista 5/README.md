@@ -7,9 +7,14 @@
 O conteúdo seguinte é sobre recursividade, que se baseia em uma função que chama ela mesma até encontrar seu caso base.
 
 # Resumo
-Um exemplo simples de recursão é a seguinte função
+Um exemplo simples de recursão é a seguinte função:
 ```C
-
+int soman(int n){
+    if(n==1){
+        return 1;
+    } else{
+        return n + soman(n - 1);
+    }
+}
 ```
-
-
+Nesse caso a função vai somar um número n com seus anteriores até que o n = 1, no caso do n=5 seria retornado 5 + 4 + 3 + 2 + 1.
