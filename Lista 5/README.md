@@ -6,6 +6,7 @@
 
 O conteúdo seguinte é sobre recursividade, que se baseia em uma função que chama ela mesma até encontrar seu caso base.
 
+# Resumo
 Um exemplo simples de recursão é a seguinte função
 ```C
 
