@@ -1,5 +1,7 @@
-# Recursividade
+# Laboratório 5
 Código realizado para treinar o novo conceito de ressonância/recursividade aprendido em sala.
+
+<h2></h2>
 
 ```C
 #include <stdio.h>
@@ -12,7 +14,12 @@ int soman(int n){
         return n + soman(n - 1);
     }
 }
+```
+Mesmo exemplo da parte de resumo, soma um número até o caso base n = 1.
 
+<h2></h2>
+
+```C
 int mult(int m, int m2){
     if(m2==0){
         return 0;
@@ -20,7 +27,12 @@ int mult(int m, int m2){
         return m + mult(m, m2-1);
     }
 }
+```
+A função mult tem 2 valores no seu parâmetro, o m é o número a ser multiplicado e o m2 é o número de vezes que ele será multiplicado. Seria m + m em uma quantidade de m2 vezes, finalizando a recursão quando m2 == 0 zerando a última soma.
 
+<h2></h2>
+
+```C
 int multi(int m, int m2){
     int resultado = 0;
 
@@ -30,7 +42,12 @@ int multi(int m, int m2){
 
     return resultado;
 }
+```
+Já a função multi utiliza o mesmo conceito da função mult mas não utiliza a recursividade, o laço de repetição adiciona m no resultado a cada m2.
 
+<h2></h2>
+
+```C
 double pot(double x, int e){
     if(e == 0){
         return 1;
@@ -39,7 +56,12 @@ double pot(double x, int e){
     }
     return x * pot(x, e - 1);
 }
+```
+A função pot serve para calcular um número x elevado a um expoente e utilizando a recursão. Nesse bloco de código é criado uma condição para quando o e = 0 e para quando ele é != de 0, no if ele irá retornar 0 pois todo número elevado a 0 é 0, no else if ele retorna o valor com o expoente negativo. E caso não entre em nenhuma dessas condições, tem outro return onde o x multiplica x em uma quantidade e vezes através da recursão.
 
+<h2></h2>
+
+```C
 double poti(double x, int e){
     double resultado = 1;
     int positivo = e;
@@ -58,7 +80,11 @@ double poti(double x, int e){
 
     return resultado;
 }
+```
 
+<h2></h2>
+
+```C
 void imprimir_multiplicacao(double x, int e) {
     if (e == 0) {
         printf("1\n");
@@ -83,7 +109,11 @@ void imprimir_multiplicacao(double x, int e) {
 
     printf("\n");
 }
+```
 
+<h2></h2>
+
+```C
 int fat(int b){
     if(b==1){
         return 1;
@@ -91,11 +121,19 @@ int fat(int b){
         return b*fat(b-1);
     }
 }
+```
 
+<h2></h2>
+
+```C
 int fatq(int b){
     return fat(2*b)/fat(b);
 }
+```
 
+<h2></h2>
+
+```C
 int fib(int z){
     if(z == 0){
         return 0;
@@ -105,7 +143,11 @@ int fib(int z){
         return fib(z - 1) + fib(z - 2);
     }
 }
+```
 
+<h2></h2>
+
+```C
 int somat(int in){
     if(in == 1){
         return 0;
@@ -113,7 +155,11 @@ int somat(int in){
         return 2*(in - 1) + somat(in - 1);
     }
 }
+```
 
+<h2></h2>
+
+```C
 int tib(int v){
     if(v == 0){
         return 0;
@@ -125,7 +171,11 @@ int tib(int v){
         return tib(v - 1) + tib(v - 2) + tib(v - 3);
     }
 }
+```
 
+<h2></h2>
+
+```C
 int pell(int u){
     if(u == 0){
         return 0;
@@ -135,6 +185,11 @@ int pell(int u){
         return 2 * pell(u - 1) + pell(u - 2);
     }
 }
+```
+
+<h2></h2>
+
+```C
 int main(){
     int n, op, m, m2, resultado, i, e, b, z, in, v, vr, u;
     double x;
