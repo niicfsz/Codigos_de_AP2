@@ -1,7 +1,10 @@
 # Laboratório 5
-Código realizado para treinar o novo conceito de ressonância/recursividade aprendido em sala.
+Lista baseada em recursividade/ressonância:
 
-<h2></h2>
+[Lab05_AP2_2024.pdf](https://github.com/user-attachments/files/22259872/Lab05_AP2_2024.pdf)
+
+
+## Funções
 
 ```C
 #include <stdio.h>
@@ -28,7 +31,7 @@ int mult(int m, int m2){
     }
 }
 ```
-A função mult tem 2 valores no seu parâmetro, o m é o número a ser multiplicado e o m2 é o número de vezes que ele será multiplicado. Seria m + m em uma quantidade de m2 vezes, finalizando a recursão quando m2 == 0 zerando a última soma.
+A função mult tem 2 valores no seu parâmetro, o "m" é o número a ser multiplicado e o "m2" é o número de vezes que ele será multiplicado. Seria m + m em uma quantidade de "m2" vezes, finalizando a recursão quando m2 == 0 zerando a última soma.
 
 <h2></h2>
 
@@ -43,7 +46,7 @@ int multi(int m, int m2){
     return resultado;
 }
 ```
-Já a função multi utiliza o mesmo conceito da função mult mas não utiliza a recursividade, o laço de repetição adiciona m no resultado a cada m2.
+Já a função multi utiliza o mesmo conceito da função mult mas não utiliza a recursividade, o laço de repetição adiciona "m" no resultado a cada "m2".
 
 <h2></h2>
 
@@ -57,20 +60,15 @@ double pot(double x, int e){
     return x * pot(x, e - 1);
 }
 ```
-A função pot serve para calcular um número x elevado a um expoente e utilizando a recursão. Nesse bloco de código é criado uma condição para quando o e = 0 e para quando ele é != de 0, no if ele irá retornar 0 pois todo número elevado a 0 é 0, no else if ele retorna o valor com o expoente negativo. E caso não entre em nenhuma dessas condições, tem outro return onde o x multiplica x em uma quantidade e vezes através da recursão.
+A função pot serve para calcular um número "x" elevado a um expoente "e" utilizando a recursão. Nesse bloco de código é criado uma condição para quando o e = 0 e para quando ele é != de 0, no primeiro if ele irá retornar 0 pois todo número elevado a 0 é 0, já no segundo ele retorna o valor de (1/x^e) caso o expoente seja negativo. E caso não entre em nenhuma dessas condições, tem outro return onde o "x" multiplica "x" em uma quantidade e vezes através da recursão.
 
 <h2></h2>
 
 ```C
 double poti(double x, int e){
     double resultado = 1;
-    int positivo = e;
 
-    if (e < 0) {
-        positivo = -e;
-    }
-
-    for (int i = 0; i < positivo; i++) {
+    for (int i = 0; i < e; i++) {
         resultado *= x;
     }
 
@@ -81,6 +79,8 @@ double poti(double x, int e){
     return resultado;
 }
 ```
+Já na função poti, ainda trabalhamos com a mesma operação de potência só que sem usar o benefício da recursão.
+
 
 <h2></h2>
 
@@ -110,6 +110,7 @@ void imprimir_multiplicacao(double x, int e) {
     printf("\n");
 }
 ```
+Na função imprimir_multiplicacao foi exigido que fosse criado um componente que printasses o número "x" vezes ele mesmo em uma quantidade "e" vezes. Em x^4 por exemplo teríamos no printf x * x * x * x.
 
 <h2></h2>
 
@@ -122,7 +123,7 @@ int fat(int b){
     }
 }
 ```
-
+A função "fat" trabalha com a multiplicação de um número pelo seu anterior, de forma que o último elemento da multiplicação deva ser o 1.
 <h2></h2>
 
 ```C
