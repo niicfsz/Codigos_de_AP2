@@ -60,7 +60,7 @@ double pot(double x, int e){
     return x * pot(x, e - 1);
 }
 ```
-A função pot serve para calcular um número "x" elevado a um expoente "e" utilizando a recursão. Nesse bloco de código é criado uma condição para quando o e = 0 e para quando ele é != de 0, no primeiro if ele irá retornar 0 pois todo número elevado a 0 é 0, já no segundo ele retorna o valor de (1/x^e) caso o expoente seja negativo. E caso não entre em nenhuma dessas condições, tem outro return onde o "x" multiplica "x" em uma quantidade e vezes através da recursão.
+A função pot serve para calcular um número "x" elevado a um expoente "e" utilizando a recursão. Nesse bloco de código é criado uma condição para quando o e = 0 e para quando ele é != de 0, no primeiro if ele irá retornar 1 pois todo número elevado a 0 é 1, já no segundo ele retorna o valor de (1/x^e) caso o expoente seja negativo. E caso não entre em nenhuma dessas condições, tem outro return onde o "x" multiplica "x" em uma quantidade "e" vezes através da recursão.
 
 <h2></h2>
 
@@ -110,7 +110,7 @@ void imprimir_multiplicacao(double x, int e) {
     printf("\n");
 }
 ```
-Na função imprimir_multiplicacao foi exigido que fosse criado um componente que printasses o número "x" vezes ele mesmo em uma quantidade "e" vezes. Em x^4 por exemplo teríamos no printf x * x * x * x.
+Na função imprimir_multiplicacao foi exigido que criássemos um componente que printasses o número "x" vezes ele mesmo em uma quantidade "e" vezes. Em x^4 por exemplo teríamos no printf x * x * x * x.
 
 <h2></h2>
 
@@ -131,6 +131,7 @@ int fatq(int b){
     return fat(2*b)/fat(b);
 }
 ```
+A função acima utiliza o fat original para calcular um fatorial quádruplo com base na fórmula requisitada no laboratório.
 
 <h2></h2>
 
@@ -145,6 +146,7 @@ int fib(int z){
     }
 }
 ```
+A função "fib" calcula a sequência de fibonacci até a enésima posição desejada.
 
 <h2></h2>
 
@@ -157,6 +159,7 @@ int somat(int in){
     }
 }
 ```
+A função acima calcula a somatória de n termos a partir da fórmula 2(n-1).
 
 <h2></h2>
 
@@ -173,6 +176,7 @@ int tib(int v){
     }
 }
 ```
+A função tib calcula a enésima posição da sequência tribonacci a partir do número 2.
 
 <h2></h2>
 
@@ -187,6 +191,7 @@ int pell(int u){
     }
 }
 ```
+Números Pell são algarismos utilizados para calcular a raiz quadrada de 2 elevado a n. Desta forma foi pedido que a recursão tivesse a seguinte fórmula: 2 ∗ 𝑓(𝑛 − 1) + 𝑓(𝑛 − 2), 𝑠𝑒 𝑛 > 2.
 
 <h2></h2>
 
@@ -288,3 +293,4 @@ int main(){
     return 0;
 }
 ```
+A main foi utilizada somente para montar o menu com do-while e switch-case e chamar as funções a cada exercício proposto.
