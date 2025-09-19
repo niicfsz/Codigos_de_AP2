@@ -77,6 +77,10 @@ float MAIORSALDO(v) {
 ## Letra d)
 A letra "d" deseja que a main seja criada de forma que após utilizar a função LER() e IMPRIMIR() seja criado uma variável que recena o valor da MAIORSALDO(), e então imprimir os dados da conta com maior saldo.
 ```C
+int main(){
+
+...
+
 float maior = MAIORSALDO(v);
 
     //o laço de repetição percorre os 3 indivíduos e quando acha aquele saldo que bate com o maior registrado, é impresso as informações da conta do indivíduo.
