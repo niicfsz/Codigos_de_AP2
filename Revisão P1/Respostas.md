@@ -65,7 +65,7 @@ A letra "c" deseja que seja criado uma função do tipo float que compare os 3 i
 ```C
 float MAIORSALDO(v) {
     float maior = v[0].saldo;
-    for (int i = 1; i < 3; i++) {
+    for (int i = 0; i < 3; i++) {
         if (v[i].saldo > maior) {
             maior = v[i].saldo;
         }
