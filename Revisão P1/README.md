@@ -9,4 +9,4 @@ Como prometido a vocês, projetei uma seção de revisão para a primeira avalia
 
 🕷️[Perguntas](https://github.com/niicfsz/Codigos_de_AP2/blob/main/Revis%C3%A3o%20P1/Perguntas.md)
 
-🕷️[Respostas]()
+🕷️[Respostas](https://github.com/niicfsz/Codigos_de_AP2/blob/main/Revis%C3%A3o%20P1/Respostas.md)
