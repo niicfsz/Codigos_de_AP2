@@ -36,8 +36,8 @@ int main() {
 #include <stdio.h>
 
 void incdec(int *a, int *b){
-    (*a)--;
-    (*b)++;
+    a--;
+    b++;
 }
 
 int main(){
@@ -66,8 +66,8 @@ int main(){
 #define PI 3.14
 
 void circ(float a, float *b, float *c){
-    *b = PI * a * a;
-    *c = 2 * PI * a;
+    b = PI * a * a;
+    c = 2 * PI * a;
 }
 
 int main(){
@@ -93,8 +93,8 @@ int main(){
 #include <stdio.h>
 
 void quadr(float a, float *b, float *c){
-    *b = a * a;
-    *c = 4*a;
+    b = a * a;
+    c = 4*a;
 }
 
 int main(){
