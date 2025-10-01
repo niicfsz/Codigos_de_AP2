@@ -59,6 +59,7 @@ int main(){
     return 0;
 }
 ```
+A função acima utiliza ponteiros no seu argumento para indicar o endereço das variáveis que sofrerão incrementos e decrementos.
 
 ## c)
 ```C
@@ -76,17 +77,12 @@ int main(){
     printf("Digita o raio da circunferencia: ");
     scanf("%f", &a);
 
-    printf("Digita a area da circunferencia: ");
-    scanf("%f", &b);
-
-    printf("Digita o perimetro da circunferencia: ");
-    scanf("%f", &c);
-
     circ(a,&b,&c);
 
     printf("\nA area do circulo eh igual a %.2f e o perimetro eh igual a %.2f", b, c);
 }
 ```
+A função "circ" recebe 3 valores, sendo dois valores com ponteiros pois irão se alterar ao decorrer do código e uma variável normal, que é o raio de uma circunferência. O cálculo será feito dentro de "circ" e suas variáveis serão printadas logo embaixo.
 
 ## d)
 ```C
@@ -103,14 +99,10 @@ int main(){
     printf("Digita o lado do quadrado: ");
     scanf("%f", &a);
 
-    printf("Digita a area do quadrado: ");
-    scanf("%f", &b);
-
-    printf("Digita o perimetro do quadrado: ");
-    scanf("%f", &c);
 
     quadr(a,&b,&c);
 
     printf("\nA area do quadrado eh igual a %.2f e o perimetro eh igual a %.2f", b, c);
 }
 ```
+A função "quadr" recebe 3 valores, sendo dois valores com ponteiros pois irão se alterar ao decorrer do código e uma variável normal, que é um dos lados de um quadrado. O cálculo será feito dentro do "quadr" e suas variáveis serão printadas logo embaixo.
