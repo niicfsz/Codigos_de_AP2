@@ -14,6 +14,7 @@ void maiuscula(char *f) {
 
 #endif // MAIUSC_H_INCLUDED
 ```
+A função acima possui elementos que remetem a questão passada, entretanto, o objetivo dessa é varrer a frase inteira e transformar cada caractere que esteja em minúsculo para sua forma maiúsculo.
 
 ## Main
 ```C
