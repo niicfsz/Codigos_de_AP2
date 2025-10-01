@@ -36,8 +36,8 @@ int main() {
 #include <stdio.h>
 
 void incdec(int *a, int *b){
-    a--;
-    b++;
+    (*a)--;
+    (*b)++;
 }
 
 int main(){
@@ -67,8 +67,8 @@ A função acima utiliza ponteiros no seu argumento para indicar o endereço das
 #define PI 3.14
 
 void circ(float a, float *b, float *c){
-    b = PI * a * a;
-    c = 2 * PI * a;
+    *b = PI * a * a;
+    *c = 2 * PI * a;
 }
 
 int main(){
@@ -89,8 +89,8 @@ A função "circ" recebe 3 valores, sendo dois valores com ponteiros pois irão 
 #include <stdio.h>
 
 void quadr(float a, float *b, float *c){
-    b = a * a;
-    c = 4*a;
+    *b = a * a;
+    *c = 4*a;
 }
 
 int main(){
