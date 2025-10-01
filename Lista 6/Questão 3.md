@@ -36,3 +36,4 @@ int main() {
     return 0;
 }
 ```
+A main desse exercício faz exatamente a mesma coisa da última questão vista, ele lê uma frase do usuário e transforma todas as letras em maiúscula.
