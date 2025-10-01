@@ -15,4 +15,4 @@ void troca(int *a, int *b){
     b = aux;
 }
 ```
-  A função acima utiliza ponteiros em seu argumento para que a troca de valores afete diretamente o endereço das variáveis em vez das variáveis em si, para que não haja erro durante a troca.
+  A função acima utiliza ponteiros em seu argumento para que a troca de valores afete diretamente o endereço das variáveis em vez das variáveis em si, para que a troca não ocorra somente dentro da função, mas no sistema geral.
