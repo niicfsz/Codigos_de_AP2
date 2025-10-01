@@ -10,9 +10,9 @@
 void troca(int *a, int *b){
     int aux;
 
-    aux = a;
-    a = b;
-    b = aux;
+    aux = *a;
+    *a = *b;
+    *b = aux;
 }
 ```
-  A função acima utiliza ponteiros em seu argumento para que a troca de valores afete diretamente o endereço das variáveis em vez das variáveis em si, para que a operação não ocorra somente dentro da função como na passagem por parâmetro, mas em todo o programa.
+  A função recebe ponteiros como parâmetros, ou seja, os endereços das variáveis originais. Dentro da função, esses ponteiros permitem acessar e modificar diretamente os valores armazenados nessas variáveis. Assim, a troca afeta as variáveis do programa principal, e não apenas cópias locais, como aconteceria se os valores fossem passados diretamente por parâmetro.
