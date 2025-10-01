@@ -4,15 +4,15 @@
 #ifndef SDGDF_H_INCLUDED
 #define SDGDF_H_INCLUDED
 
-void ordenador(float *v){
+void ordenador(float *v) {
     float aux;
 
-    for(int i = 0; i < 2; i++){
-    for (int j = i + 1; j < 3; j++) {
-            if (*(v+i) > *(v+j)) {
-                aux = *(v+i);
-                *(v+i) = *(v+j);
-                *(v+j) = aux;
+    for (int i = 0; i < 2; i++) {
+        for (int j = i + 1; j < 3; j++) {
+            if (v[i] > v[j]) {
+                aux = v[i];
+                v[i] = v[j];
+                v[j] = aux;
             }
         }
     }
@@ -20,6 +20,7 @@ void ordenador(float *v){
 
 #endif // SDGDF_H_INCLUDED
 ```
+A função "ordenador" é responsável por receber um ponteiro de vetor contendo 3 números, e quando receber faria as trocas necessárias para ordenar o vetor em ordem crescente.
 
 ## Main
 ```C
@@ -44,3 +45,4 @@ int main(){
     }
 }
 ```
+A main apenas cria valores para o vetor e chama a função embaixo com o vetor de argumento, que inclusive, não possui a necessidade de acompanhar &, pois estaria passando um ponteiro para o array inteiro em vez de cada elemento.
