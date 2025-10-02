@@ -6,7 +6,7 @@
 
 void Elementos(int *v){
     for(int i = 0; i < 8; i++){
-        if(v[i] > 15 && v[i] < 20){
+        if(v[i] >= 15 && v[i] <= 20){
             v[i] = 0;
         }
     }
@@ -14,6 +14,7 @@ void Elementos(int *v){
 
 #endif // SEILA_H_INCLUDED
 ```
+A função "Elementos" recebe um vetor de 8 elementos e caso o número encontrado dentro de uma determinada posição da ordem esteja entre 15 e 20, ele deve ser substituído por 0.
 
 ## Main
 ```C
@@ -39,4 +40,4 @@ int main()
     }
 }
 ```
-
+A main nessa questão serve para definir os elementos do vetor e chamar a função.
