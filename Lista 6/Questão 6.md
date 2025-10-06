@@ -35,3 +35,4 @@ int main() {
     return 0;
 }
 ```
+O código acima não utiliza do artefato da passagem por referência por se tratar de um array, caso fosse uma variável comum que teria seu valor alterado, haveria a necessidade de incluir * no parâmetro e na variável dentro do módulo. A função subspar verifica cada elemento da matriz e caso ele seja divisível por 2 (par), será substituído por 1000
