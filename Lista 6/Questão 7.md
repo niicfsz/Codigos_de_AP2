@@ -40,3 +40,4 @@ int main(){
     return 0;
 }
 ```
+Esse programa utiliza a passagem por referência para receber as informações de um aluno e substituílas/sobrepor com informações novas.
