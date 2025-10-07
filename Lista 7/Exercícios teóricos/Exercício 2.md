@@ -1,4 +1,4 @@
-2- Faça o teste de mesa do exercício anterior, não deixe de coloar um campo para indicar o endereço de memória.
+2- Faça o teste de mesa do exercício anterior, não deixe de colocar um campo para indicar o endereço de memória.
 
  | Linha | i | j | p | &i |
  | ----- | - | - | - | -- |
