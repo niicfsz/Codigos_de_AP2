@@ -10,3 +10,6 @@ for (int i = 0; i < 5; i++){
     }
 ```
 O exemplo acima é um trecho de uma das funções dessa seção, nele é passado um vetor que terá um ponteiro ptr apontando para ele (*ptr = v), dentro do laço a variável soma irá receber o valor dos 5 elementos combinados, passando por cada posição da ordem e acessando seus reespectivos endereços com *(ptr + i). 
+
+Lab desse conteúdo em 2024:
+[Lab07_AP2_2024.pdf](https://github.com/user-attachments/files/22754922/Lab07_AP2_2024.pdf)
