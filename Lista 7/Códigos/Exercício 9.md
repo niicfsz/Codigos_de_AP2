@@ -2,6 +2,7 @@
 
 ```C
 #include <stdio.h>
+#include <ctype.h>
 
 void maiusc(){
     char frase[100];
@@ -25,3 +26,4 @@ int main(){
     return 0;
 }
 ```
+O módulo acima utiliza ponteiros e funções da ctype.h para transformar uma frase inteira de letras misturadas(maiúsculas e minúsculas) em uma frase apenas com letras maiúsculas.
