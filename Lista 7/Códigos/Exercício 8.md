@@ -21,3 +21,4 @@ int main() {
     return 0;
 }
 ```
+Esse módulo recebe um valor inteiro e utiliza o ponteiro para depois somar 10 a ele.
