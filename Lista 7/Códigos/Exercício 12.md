@@ -26,7 +26,7 @@ int main()
     printf("Média: %.2f\n", ptr->media);
 }
 ```
-Nessa função o ponteiro é criado com um tipo específico de struct, sendo utilizado para apontar para o endereço dos campos da estrutura, de forma que sua nomenclatura deixe de ser:
+Nessa questão o ponteiro é criado com um tipo específico de struct, sendo utilizado para apontar para o endereço dos campos da estrutura, de forma que sua nomenclatura deixe de ser:
 ```C
 NomeDaVariavelDaStruct.AtributoDaStruct
 ```
