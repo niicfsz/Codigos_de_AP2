@@ -31,4 +31,4 @@ int main(){
     return 0;
 }
 ```
-Essa função tem o mesmo objetivo do módulo do exercício 12, porém nessa o ponteiro é utilzado para que o usuário determine os campos da estrutura.
+Essa questão tem o mesmo objetivo do módulo do exercício 12, porém nessa o ponteiro é utilzado para que o usuário determine os campos da estrutura.
