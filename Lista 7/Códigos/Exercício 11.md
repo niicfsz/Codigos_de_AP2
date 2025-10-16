@@ -8,7 +8,7 @@ void printv(){
     int *ptr = v;
 
     for(i = 0; i < 5; i++){
-        printf("Digite %d posicao do vetor: ", i+1);
+        printf("Digite o valor da %d posicao do vetor: ", i+1);
         scanf("%d", &v[i]);
     }
 
@@ -22,3 +22,4 @@ int main(){
     return 0;
 }
 ```
+A função acima utiliza o recurso do ponteiro apenas para registrar no endereço da variável v os valores dos elementos do vetor.
