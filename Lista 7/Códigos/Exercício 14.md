@@ -32,3 +32,4 @@ int main() {
     return 0;
 }
 ```
+Esse exercício possui o mesmo objetivo das últimas duas questões, mas com algumas diferenças em atributos e utilizando um ponteiro para struct de struct.
