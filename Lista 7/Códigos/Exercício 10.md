@@ -25,3 +25,4 @@ int main(){
     return 0;
 }
 ```
+Esse código utiliza o ponteiros para apontar para o primeiro elemento do vetor(evidenciado na linha 7), e após sua declaração é criado um laço de repetição que incrementa a quantidade de elementos i no ponteiro para que ele se mova para os valores do vetor que serão somados.
