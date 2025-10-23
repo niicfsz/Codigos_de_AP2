@@ -4,7 +4,7 @@
 
 
 ## Lista de programas:
-Os programas dentro das listas abaixo foram realizados como maneira de estudo durante as aulas de laboratório da diciplina de Algoritmos e Programação II, nelas há conteúdos de struct, funções recursivas, ponteiros e etc. Cada lista terá um pequeno resumo sobre o que é abordado, e seus códigos com explicações aprofundadas.
+Os programas dentro das listas abaixo foram realizados como maneira de estudo durante as aulas de laboratório da diciplina de Algoritmos e Programação II, nelas há conteúdos de struct, funções recursivas, ponteiros e etc. Cada lista terá um pequeno resumo sobre o que é abordado e seus códigos com explicações aprofundadas.
 
 🕷️[Lista 1](https://github.com/niicfsz/Codigos_de_AP2/tree/main/Lista%201)
 
