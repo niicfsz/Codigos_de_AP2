@@ -8,20 +8,20 @@ int main()
 
     int i;
 
-    FILE *thales;
+    FILE *arq;
 
-    thales = fopen("C:\\Users\\AlunoBCC\\Desktop\\dados.txt", "w");
+    arq = fopen("C:\\Users\\AlunoBCC\\Desktop\\dados.txt", "w");
 
-    if(thales == NULL){
+    if(arq == NULL){
         printf("Erro ao criar o arquivo.");
         return 1;
     }
 
     for(i=0; i <= 10; i++){
-        fprintf(thales, "%d ", i*10);
+        fprintf(arq, "%d ", i*10);
     }
 
-    fclose(thales);
+    fclose(arq);
 
     rename("C:\\Users\\AlunoBCC\\Desktop\\dados.txt", "C:\\Users\\AlunoBCC\\Desktop\\matriculados.txt");
 
