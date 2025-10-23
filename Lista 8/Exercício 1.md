@@ -13,7 +13,7 @@ int main()
 
     arq = fopen("C:\\Users\\AlunoBCC\\Desktop\\dados.txt", "w");
 
-    if(thales == NULL){
+    if(arq == NULL){
         printf("Erro ao criar o arquivo.");
         return 1;
     }
