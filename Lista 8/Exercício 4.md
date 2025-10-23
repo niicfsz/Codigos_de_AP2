@@ -83,5 +83,5 @@ fseek(PtrDoArquivo, 0, iniciodaleitura);
 ## fscanf
 O fscanf é o responsável pela identificação das variáveis dentro do arquivo, sua sintaxe varia de acordo com a necessidade.
 ```C
-fscanf(PtrDoArquivo, tipoDaVariavel nomeDaVariavel;
+fscanf(PtrDoArquivo, tipoDaVariavel nomeDaVariavel);
 ```
