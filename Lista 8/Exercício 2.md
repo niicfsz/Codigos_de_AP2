@@ -21,9 +21,9 @@ int main()
         fprintf(arq, "%d ", i*10);
     }
 
-    fclose(arq);
-
     rename("C:\\Users\\AlunoBCC\\Desktop\\dados.txt", "C:\\Users\\AlunoBCC\\Desktop\\matriculados.txt");
+
+    fclose(arq);
 
     printf("Contagem anotada no arquivo.");
 
