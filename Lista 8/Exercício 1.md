@@ -30,4 +30,7 @@ int main()
 
 ```
 
-Nessa questão é utilizado o a função de impressão do arquivo para imprimir a sequência de 0 a 100 de 10 em 10.
+Nessa questão é utilizado o a função de impressão do arquivo reconhecida como "fprintf", nela utilizamos de parâmetro a variável responsável pelo arquivo e o que será escrito, seguido pelas variáveis caso seja necessário.
+```C
+fprintf(VariávelPtrDoArquivo, "texto")
+```
