@@ -32,5 +32,5 @@ int main()
 
 Nessa questão é utilizado o a função de impressão do arquivo reconhecida como "fprintf", nela utilizamos de parâmetro a variável responsável pelo arquivo e o que será escrito, seguido pelas variáveis caso seja necessário.
 ```C
-fprintf(VariávelPtrDoArquivo, "texto")
+fprintf(VariávelPtrDoArquivo, "texto");
 ```
