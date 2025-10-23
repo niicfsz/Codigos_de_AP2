@@ -9,9 +9,9 @@ int main()
 
     int i;
 
-    FILE *thales;
+    FILE *arq;
 
-    thales = fopen("C:\\Users\\AlunoBCC\\Desktop\\dados.txt", "w");
+    arq = fopen("C:\\Users\\AlunoBCC\\Desktop\\dados.txt", "w");
 
     if(thales == NULL){
         printf("Erro ao criar o arquivo.");
@@ -19,13 +19,15 @@ int main()
     }
 
     for(i=0; i <= 10; i++){
-        fprintf(thales, "%d ", i*10);
+        fprintf(arq, "%d ", i*10);
     }
 
-    fclose(thales);
+    fclose(arq);
 
     printf("Contagem anotada no arquivo.");
 
 }
 
 ```
+
+Nessa questão é utilizado o a função de impressão do arquivo para imprimir a sequência de 0 a 100 de 10 em 10.
