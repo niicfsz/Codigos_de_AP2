@@ -71,3 +71,17 @@ int main() {
     return 0;
 }
 ```
+Esse código utiliza uma função que é muito utilizada em programas em C que utilizam armazenamento de dados, chamada "fseek" e "fscanf". No programa, essas funções procuram se já existe uma mesma matrícula no arquivo.
+
+## fseek
+O fseek é o responsável pelo reposicionamento do ponteiro de leitura no arquivo, movendo do início ao fim do arquivo.
+```C
+fseek(PtrDoArquivo, 0, iniciodaleitura);
+//em "iniciodaleitura" geralmente utilizamos SEEK_SET pois ele representa o inicio do arquivo 
+```
+
+## fscanf
+O fscanf é o responsável pela identificação das variáveis dentro do arquivo, sua sintaxe varia de acordo com a necessidade.
+```C
+fscanf(PtrDoArquivo, tipoDaVariavel nomeDaVariavel
+```
