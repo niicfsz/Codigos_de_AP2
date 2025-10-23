@@ -29,3 +29,4 @@ int main()
 
 }
 ```
+Esse programa apenas acessa o arquivo já criado no exercício anterior e muda seu nome, mantendo seu diretório.
