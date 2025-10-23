@@ -46,3 +46,4 @@ int main()
     return 0;
 }
 ```
+Nesse programa é utilizado a função "fprintf" para imprimir a informação de um aluno no documento de texto, utilizando variáveis definidas pelo usuário.
