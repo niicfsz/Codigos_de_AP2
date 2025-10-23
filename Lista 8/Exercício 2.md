@@ -29,3 +29,7 @@ int main()
 
 }
 ```
+O diferencial desse questão em relação a primeira, é que essa possui uma função de renomear o arquivo que já existe no diretório do projeto, também chamada de "rename".
+```C
+rename("diretoriodoarquivo/NomeAntigo", "diretoriodoarquivo/NomeNovo");
+```
