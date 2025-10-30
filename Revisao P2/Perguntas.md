@@ -34,6 +34,6 @@ Determine o resultado das seguintes expressões:
 
 
 a) x == &a                               
-b) x* + *y                                
+b) *x + *y                                
 c) *&y                                
-d) *x**y - a
+d) *x * *y - a
