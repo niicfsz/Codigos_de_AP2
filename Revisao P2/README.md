@@ -1,1 +1,1 @@
-
+Olá, dessa vez elaborei uma seção de revisão para a segunda avaliação de AP2, contendo os conteúdos de passagem por referência ponteiros e arquivos. O folder possui dois arquivos com perguntas e repostas para treinar e corrigir erros. Vou deixar o gabarito das perguntas logo a seguir, mas desejo que tentem responder as perguntas antes que tentem olhar a resposta.
