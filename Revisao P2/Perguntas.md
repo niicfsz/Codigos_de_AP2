@@ -1,7 +1,7 @@
 1- Complete o programa abaixo, que usando a passagem de parâmetros por referência para ordenar de forma crescente três valores lidos no módulo principal.
 ```C
 void CRESCENTE(int *a, int *b, int *c){
-
+  //Complete o código
 }
 
 int main(){
@@ -9,6 +9,7 @@ int main(){
   scanf("%d",&x);
   scanf("%d",&y);
   scanf("%d",&z);
+  //Chame a função
   printf("%d %d %d", x, y, z);
 }
 ```
