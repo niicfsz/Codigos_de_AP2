@@ -1,4 +1,4 @@
-1- Complete o programa abaixo, que usando a passagem de parâmetros por referência para ordenar de forma crescente três valores lidos no módulo principal.
+1- Complete o programa abaixo, que está usando a passagem de parâmetros por referência para ordenar de forma crescente três valores lidos no módulo principal.
 ```C
 void CRESCENTE(int *a, int *b, int *c){
   //Complete o código
